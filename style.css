@@ -1,0 +1,208 @@
+
+
+.header {
+    background-color:aquamarine;
+    color:black;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1; 
+    margin-top: -.5%;
+    margin-left: -.5%;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: -1.5%;
+    margin-left: -.5%;
+    padding: 0;
+    width: 10%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    top: 90px; 
+}
+
+ li a {
+    display: block;
+    color: #000;
+    padding: 5px 25px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+ li a:hover:not(.active) {
+    background-color:aqua;
+   color:black;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color:aqua;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 5px 10px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color:aqua;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.content {
+    margin-left:50%;
+    padding: 60px 16px 16px 16px; 
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:aquamarine;
+    color:black;
+    text-align: center;
+    padding: 15px;
+}
+
+.content {
+  margin-left: 15%;
+  padding: 1px 16px;
+  height: 900px;
+  color: #f1f1f1;
+}
+
+.video-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  justify-items: center; /* Center horizontally */
+  align-content: center;  /* Center vertically */
+  margin-top: 60px;
+}
+
+/* Add the following CSS to make the iframes bigger */
+.video-container iframe {
+  max-width: 100%; /* Ensure the iframes don't overflow their containers */
+  height: 500px; /* Set the desired height */
+  width: 800px; /* Set the desired width */
+  display: block; /* Remove any default inline spacing */
+  margin: 0 auto; /* Center horizontally within their containers */
+}
+
+.news-feed {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.news-item {
+  background-color: gray;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  width: 1000px;
+  overflow: hidden;
+}
+
+.news-item img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+ 
+}
+
+.news-content {
+  padding: 25px;
+}
+.news {
+  float: right;
+}
+
+.content{
+  margin-left: 100px;
+  padding:1px 16px 16px 16px;
+
+}
+.content{
+  margin-left:100px;
+  padding:200px 16px 16px 16px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.about{
+  width: 100%;
+  padding: 78px 0px;
+}
+.about img{
+  height: auto;
+  width: 500px;
+}
+.about-text{
+  width: 550px;
+}
+.main{
+  width: 1130px;
+  max-width:50%;
+  margin: 0 auto;
+  display: flex;
+  align-items:left;
+  justify-content: space-around;
+  margin-bottom:50px;
+}
+.about-text h1{
+  color:black;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom:100px;
+  margin-top:20%;
+}
+.about-text h5{
+  color:black;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  .about-text h6{
+    color:black;
+    font-size:15px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+}
+.about-text p{
+color: #04364a;
+letter-spacing: 1px;
+line-height: 28px;
+font-size: 18px;
+margin-bottom:50px;
+}
